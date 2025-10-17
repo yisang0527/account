@@ -1,0 +1,78 @@
+/* account.css */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+ul {
+    list-style: none;
+}
+
+#wrap {
+    margin: 30px auto;
+    width: 1000px;
+}
+
+#inputWrap {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.tabList button {
+    padding: 3px 15px;
+    border: 0;
+    background: #fff;
+    cursor: pointer;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 0.7s ease-in;
+}
+
+.tabList button:hover {
+    background: cornflowerblue;
+}
+
+.field {
+    padding: 10px 5px;
+}
+
+.input-field label {
+    margin-right: 10px;
+}
+
+/* 출력 영역 스타일 */
+
+#container {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#container td,
+#container th {
+    border: 1px solid #aaa;
+    padding: 5px 2px;
+}
+
+.date {
+    width: 10%;
+}
+
+.expense,
+.income {
+    width: 15%;
+}
+
+.detail-col {
+    width: 35%;
+}
+
+.category-col {
+    width: 15%;
+}
+
+.payment-col {
+    width: 10%;
+}
